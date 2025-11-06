@@ -4,9 +4,9 @@ const about = document.querySelector('#about');
 // Função para trazer as infos do Github
 //async utiliza o conceito de promise
 //js nao tem método, é função
-async function getApiGithub(){
+async function getApiGithub() {
 
-    try{
+    try {
         // PASSO 1: Fazer uma requisição GET para a API do Github
         const dadosPerfil = await fetch('https://api.github.com/users/alineromanini') //fetch funciona como o insomnia utilizando GET e é assincrono por natureza
 
@@ -17,7 +17,7 @@ async function getApiGithub(){
 
         //interpolacao
 
-        let conteudo =  `
+        let conteudo = `
         
         <!-- FOTO DO PERFIL -->
         <figure class="about_image">
@@ -35,16 +35,18 @@ async function getApiGithub(){
 
                 <div class="about_stats">
                     <a href="${perfilJson.html_url}" target="_blank" class="botao">Ver Github</a>
-                    <div class="stat-item">
-                        <p class="stat-number">${perfilJson.followers}</p>
-                        <p class="stat-label">Seguidores</p>
+                    <div class="stats-wrapper">
+                        <div class="stat-item">
+                            <p class="stat-number">${perfilJson.followers}</p>
+                            <p class="stat-label">Seguidores</p>
 
-                    </div>
+                        </div>
 
-                      <div class="stat-item">
-                        <p class="stat-number">${perfilJson.public_repos}</p>
-                        <p class="stat-label">Repositórios</p>
+                        <div class="stat-item">
+                            <p class="stat-number">${perfilJson.public_repos}</p>
+                            <p class="stat-label">Repositórios</p>
 
+                        </div>
                     </div>
                 </div>
             </article>
@@ -58,7 +60,7 @@ async function getApiGithub(){
 
         about.innerHTML += conteudo;
 
-    }catch(error){
+    } catch (error) {
         console.error(error);
     }
 }
