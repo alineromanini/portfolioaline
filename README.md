@@ -11,6 +11,23 @@ Este é o repositório do meu site portfólio pessoal, desenvolvido com HTML, CS
 
 <br />
 
+# Estrutura do Projeto
+
+📁 projeto-portfolio/
+│
+├── 📄 index.html          # Página principal do portfólio
+├── 📄 sucess.html         # Página exibida após envio do formulário
+│
+└── 📁 assets/
+    ├── 📁 css/
+    │   └── styles.css     # Folha de estilos principal
+    ├── 📁 img/            # Imagens e ícones utilizados
+    ├── 📁 js/
+    │   └── scripts.js     # Script principal do site
+    └── 📁 docs/           # Documentação técnica complementar
+        ├── css.md		   # Documentação técnica CSS
+        └── html.md		   # Documentação técnica HTML
+
 ## Tecnologias Utilizadas
 
 <br />
