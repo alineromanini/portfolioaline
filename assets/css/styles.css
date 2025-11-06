@@ -173,6 +173,7 @@ button{
     flex: 1;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .hero_image img {
@@ -183,13 +184,14 @@ button{
 }
  
 /*.ilustracao {
+    width: 100%;
     max-width: 200%;
-    border-radius: 200rem;
+    border-radius: 2rem;
 
 }*/
  
 .hero_content h4 {
-    font-size: 1.125rem;
+    font-size: 1.25rem;
     font-weight: 600;
     color: var(--purple-500);
 }
@@ -202,8 +204,8 @@ button{
 }
  
 .hero_content p {
-    font-size: 1.125rem;
-    line-height: 1.875rem;
+    font-size: 1.25rem;
+    line-height: 1.75rem;
     color: var(--gray-400);
 }
  
@@ -261,8 +263,8 @@ button{
 }
  
 .about_content p {
-    font-size: 1.125rem;
-    line-height: 1.875rem;
+    font-size: 1.25rem;
+    line-height: 1.75rem;
     color: var(--gray-400);
     margin-bottom: 1rem;
 }
@@ -279,27 +281,30 @@ button{
 }
  
 .stat-item {
-    text-align: center;
+    text-align: 0 0 auto;
 }
- 
+
+  /* Wrapper para manter os stats lado a lado */
 .stats-wrapper {
     display: flex;
+    justify-content: center;
     flex-direction: row;
     gap: 2rem;
-    margin-top: 2rem;
 }
  
 .stats-wrapper .stat-number {
     font-size: 1.5rem;
     font-weight: 700;
+    text-align: center;
     color: var(--purple-500);
     margin-bottom: 0;
 }
  
 .stats-wrapper .stat-label {
-    font-size: 0.875rem;
+    font-size: 0.75rem;
     color: var(--gray-400);
     margin-bottom: 0;
+    text-align: center;
     
 }
  
