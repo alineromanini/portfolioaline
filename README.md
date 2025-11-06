@@ -13,6 +13,7 @@ Este é o repositório do meu site portfólio pessoal, desenvolvido com HTML, CS
 
 # Estrutura do Projeto
 
+<br />
 📁 projeto-portfolio/
 │
 ├── 📄 index.html          # Página principal do portfólio
@@ -27,6 +28,8 @@ Este é o repositório do meu site portfólio pessoal, desenvolvido com HTML, CS
     └── 📁 docs/           # Documentação técnica complementar
         ├── css.md		   # Documentação técnica CSS
         └── html.md		   # Documentação técnica HTML
+
+<br />
 
 ## Tecnologias Utilizadas
 
