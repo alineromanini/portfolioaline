@@ -1,14 +1,28 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
+
+    <!-- Servidores de Fontes do Google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <!-- Fonte do Google - Poppins -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+ 
+    <!-- PADRÃO DE CARACTERES -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <!-- Meta tag Essenciais -->
      <meta name="author" content="Aline Romanini">
     <meta name="description" content="Portfólio de Aline Romanini, desenvolvedora full-stack em formação. Conheça meus projetos, habilidades e trajetória na área de desenvolvimento full.">
     <meta name="robots" content="index, follow">
    
     <link rel="icon" type="image/svg+xml"href="assets/img/favicon.svg">
+
+    <!-- Link para o arquivo CSS-->
+     <link rel="stylesheet" href="./assets/css/styles.css">
+
     <!-- Título da Página -->
     <title>Meu Portfólio</title>
 </head>
@@ -37,13 +51,13 @@
 
         <section id="hero" class="hero_container">
 
-            <article class="hero_content"
-            <h4> 👋 Olá, eu sou Aline</h4>
+            <article class="hero_content">
+            <h4> 👋 Olá, eu sou Aline!</h4>
             <h1> Desenvolvedora Full Stack</h1>
-            <p> Transformo ideias em códigos e crio experiências digitais que agregam</p>
-            <div class="hero_buttons">
-                <a href="#contact" class="botao">Entre em Contato!</a>
-                <a href="#about" class="botao-outline">Saiba mais.</a>
+            <p> Transformo ideias em códigos e crio experiências digitais que agregam e transformam.</p>
+            <div class="hero_buttons flex">
+                <a href="#contact" class="botao">Entre em contato</a>
+                <a href="#about" class="botao-outline">Saiba mais</a>
 
             </div>
 
@@ -53,7 +67,7 @@
                 <img
                     src="./assets/img/dev_woman.svg"
                     alt="Ilustração com uma pessoa desenvolvedora escrevendo códigos"
-                    class="Ilustração float-animation "
+                    class="ilustração float-animation"
                     >
 
             </figure>
@@ -67,7 +81,7 @@
                 <img
                     src="./assets/img/avatar_dev_woman.svg"
                     alt="Foto da pessoa desenvolvedora"
-                    class="Ilustração float-animation "
+                    class="ilustração float-animation "
                     >
 
             </figure>
@@ -95,7 +109,9 @@
 
         </section>
 
-        <section id="contact">
+        <!-- CONTACT -->
+        <section id="contact"
+            class="contact_container">
 
             <article class="contact_info">
                 <h4>Entre em contato</h4>
@@ -104,14 +120,14 @@
                     <a href="#" target="_blank" class="social_icon">
                         <img
                             src="./assets/img/linkedin.svg"
-                            alt="Link para o linkedin"
+                            alt="https://www.linkedin.com/in/aline-romanini/"
                         >
                     </a>
 
                      <a href="#" target="_blank" class="social_icon">
                         <img
                             src="./assets/img/github.svg"
-                            alt="Link para o Github"
+                            alt="https://github.com/alineromanini"
                         >
                     </a>
 
@@ -124,7 +140,7 @@
                 <span id="txtNome"></span>
 
                  <label for="email">Email</label>
-                <input id="email" name="email" type="text" placeholder="Digite o seu -email">
+                <input id="email" name="email" type="text" placeholder="Digite o seu e-mail">
                 <span id="txtEmail"></span>
 
                 <label for="Assunto">Assunto</label>
