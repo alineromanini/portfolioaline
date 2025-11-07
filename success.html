@@ -1,17 +1,31 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
+    
+     <!-- Servidores de Fontes do Google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <!-- Fonte do Google - Poppins -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+    <!-- PADRÃO DE CARACTERES -->
+    <meta charset="UTF-8">
+
+    <!-- LAYOUT MOBILE -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Meta tag Essenciais -->
+     <meta name="author" content="Aline Romanini">
+    <meta name="description" content="Portfólio de Aline Romanini, desenvolvedora full-stack em formação. Conheça meus projetos, habilidades e trajetória na área de desenvolvimento full stack.">
+    <meta name="robots" content="index, follow">
+   
+    <!-- FAVICON -->
+    <link rel="icon" type="image/svg+xml"href="assets/img/favicon.svg">
+
     <!-- Link para o arquivo CSS-->
      <link rel="stylesheet" href="./assets/css/styles.css">
 
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Meta tag Essenciais -->
-     <meta name="author" content="Aline Romanini">
-    <meta name="description" content="Portfólio de Aline Romanini, desenvolvedora full-stack em formação. Conheça meus projetos, habilidades e trajetória na área de desenvolvimento full.">
-    <meta name="robots" content="index, follow">
-   
-    <link rel="icon" type="image/svg+xml"href="assets/img/favicon.svg">
     <!-- Título da Página -->
     <title>Meu Portfólio</title>
 </head>
@@ -27,28 +41,36 @@
 
             <nav>
                 <ul class="flex menu_list">
-                    <li><a href="#hero">Início</a></li>
-                    <li><a href="#about">Sobre</a></li>
-                    <li><a href="#contact">Contato</a></li>
+                    <li><a href="index.html#hero">Início</a></li>
+                    <li><a href="index.htm#about">Sobre</a></li>
+                    <li><a href="index.htm#contact">Contato</a></li>
                 </ul>
             </nav>
         </article>
     </header>
 
-    <!-- Área principal do Site -->
-    <h2>E-mail enviado com sucesso!</h2>
+    <!-- MAIN -->
+      <main>
+        <section class="sucess_container">
+            <article class="sucess_content">
 
-    <p>Obrigado por entrar em contato! Logo mais retornarei a sua mensagem.</p>
-
-    <figure class="botao">
+                <figure class="sucess_icon">
                 <img
                     src="./assets/img/sucess.svg"
                     alt="Ilustração de um check confirmando sucesso no envio das informações"
-                    class="ilustração"
+                    class="float-animation"
                     >
             </figure>
 
-    <button class="botao" type="submit">Voltar para o início</button>
+                <h1>E-mail enviado com sucesso!</h1>
+
+                <h4>Obrigado por entrar em contato! Logo mais retornarei a sua mensagem.</h4>
+
+                <a class="botao" href="index.html">Voltar para o Início</a>
+
+            </article>
+        </section>
+      </main>
 
     <!-- Footer - Rodapé -->
     <footer>
