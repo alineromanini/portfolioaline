@@ -11,6 +11,8 @@
  
     <!-- PADRÃO DE CARACTERES -->
     <meta charset="UTF-8">
+
+    <!-- LAYOUT MOBILE -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- Meta tag Essenciais -->
@@ -18,7 +20,8 @@
     <meta name="description" content="Portfólio de Aline Romanini, desenvolvedora full-stack em formação. Conheça meus projetos, habilidades e trajetória na área de desenvolvimento full.">
     <meta name="robots" content="index, follow">
    
-    <link rel="icon" type="image/svg+xml"href="assets/img/favicon.svg">
+    <!-- FAVICON -->
+    <link rel="icon" type="image/svg+xml"href="./assets/img/favicon.svg">
 
     <!-- Link para o arquivo CSS-->
      <link rel="stylesheet" href="./assets/css/styles.css">
@@ -49,12 +52,13 @@
     <!-- Área principal do Site -->
     <main>
 
+        <!-- HERO -->
         <section id="hero" class="hero_container">
 
             <article class="hero_content">
-            <h4> 👋 Olá, eu sou Aline!</h4>
+            <h2> 👋 Olá, eu sou Aline!</h2>
             <h1> Desenvolvedora Full Stack</h1>
-            <p> Transformo ideias em códigos e crio experiências digitais que agregam e transformam.</p>
+            <p> Transformo ideias em códigos e soluções de impacto.</p>
             <div class="hero_buttons flex">
                 <a href="#contact" class="botao">Entre em contato</a>
                 <a href="#about" class="botao-outline">Saiba mais</a>
@@ -62,10 +66,10 @@
             </div>
 
         </article>
-    
+        <!-- IMAGEM COM ANIMAÇÃO -->
             <figure class="hero_image">
                 <img
-                    src="./assets/img/dev_woman.svg"
+                    src="./assets/img/ghibli.png"
                     alt="Ilustração com uma pessoa desenvolvedora escrevendo códigos"
                     class="ilustracao float-animation"
                     >
@@ -86,28 +90,34 @@
         <section id="contact"
             class="contact_container">
 
+            <!-- REDES SOCIAIS -->
             <article class="contact_info">
                 <h4>Entre em contato</h4>
                 <p>Sinta-se à vontade para entrar em contato comigo!</p>
                 <div class="social_container">
-                    <a href="#" target="_blank" class="social_icon">
+                    <a href="https://www.linkedin.com/in/aline-romanini/" target="_blank" class="social_icon">
                         <img
                             src="./assets/img/linkedin.svg"
-                            alt="https://www.linkedin.com/in/aline-romanini/"
+                            alt="Link para o Linkedin"
                         >
                     </a>
 
-                     <a href="#" target="_blank" class="social_icon">
+                     <a href="https://github.com/alineromanini" target="_blank" class="social_icon">
                         <img
                             src="./assets/img/github.svg"
-                            alt="https://github.com/alineromanini"
+                            alt="Link para o Github"
                         >
                     </a>
 
                 </div>
             </article>
 
-            <form id="formulario">
+            <!-- FORMULÁRIO -->
+            <form action="https://formsubmit.co/dd141850f67d49ee38ac9bd39ea2018a" method="POST" id="formulario">
+
+                <input type="hidden" name="_next" value="http://127.0.0.1:5500/sucess.html">
+                <input type="hidden" name="_captcha" value="false">
+
                 <label for="nome">Nome</label>
                 <input id="nome" name="nome" type="text" placeholder="Digite o seu nome completo">
                 <span id="txtNome"></span>
@@ -116,8 +126,8 @@
                 <input id="email" name="email" type="text" placeholder="Digite o seu e-mail">
                 <span id="txtEmail"></span>
 
-                <label for="Assunto">Assunto</label>
-                <input id="Assunto" name="Assunto" type="text" placeholder="Digite o assunto">
+                <label for="assunto">Assunto</label>
+                <input id="assunto" name="assunto" type="text" placeholder="Digite o assunto">
                 <span id="txtAssunto"></span>
 
                 <label for="mensagem">Mensagem</label>
@@ -130,10 +140,10 @@
         </section>
     </main>
 
-    <!-- Footer - Rodapé -->
+    <!-- RODAPÉ -->
     <footer>
         
-        Feito com ❤️ por Aline Romanini - 2025
+        Feito com 🖤 por Aline Romanini - 2025
 
 
     </footer>

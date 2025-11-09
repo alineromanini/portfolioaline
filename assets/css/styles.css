@@ -45,7 +45,7 @@ body{
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    background-color: var(--white);
+    background-color: var(--purple-100);
     color: var(--black-800)
 }
  
@@ -234,7 +234,7 @@ button{
     display: flex;
     align-items: center;
     gap: 4rem;
-    background-color: var(--gray-200);
+    background-color: var(--purple-50);
     border-radius: 1rem;
 }
 
