@@ -74,9 +74,9 @@ Isso abrirá o site em seu navegador padrão, e você poderá visualizar e testa
 
 <br />
 
-Este site está disponível publicamente através do **GitHub Pages**. Você pode acessar a versão online pelo link abaixo:
+Este site está disponível publicamente através do **Vercel**. Você pode acessar a versão online pelo link abaixo:
 
-- [Portfólio Pessoal](https://github.com/alineromanini/Portfolio)
+- [Portfólio Pessoal](https://portfolioaline-git-03js-alines-projects-13a9851b.vercel.app/)
 
 <br />
 
