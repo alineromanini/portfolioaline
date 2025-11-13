@@ -12,7 +12,8 @@ Este é o repositório do meu site portfólio pessoal, desenvolvido com HTML, CS
 <br />
 
 # Estrutura do Projeto
-
+```
+bash
 <br />
 📁 projeto-portfolio/
 │
@@ -28,7 +29,7 @@ Este é o repositório do meu site portfólio pessoal, desenvolvido com HTML, CS
     └── 📁 docs/           # Documentação técnica complementar
         ├── css.md		   # Documentação técnica CSS
         └── html.md		   # Documentação técnica HTML
-
+```
 <br />
 
 ## Tecnologias Utilizadas
@@ -76,7 +77,7 @@ Isso abrirá o site em seu navegador padrão, e você poderá visualizar e testa
 
 Este site está disponível publicamente através do **GitHub Pages**. Você pode acessar a versão online pelo link abaixo:
 
-- [Portfólio Pessoal](https://alineromanini.github.io/Portfolio)
+- [Portfólio Pessoal](https://github.com/alineromanini/Portfolio)
 
 <br />
 
