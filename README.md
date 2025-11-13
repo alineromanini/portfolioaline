@@ -12,7 +12,6 @@ Este é o repositório do meu site portfólio pessoal, desenvolvido com HTML, CS
 <br />
 
 # Estrutura do Projeto
-<br />
 ```
 bash
 
