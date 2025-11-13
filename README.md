@@ -13,7 +13,6 @@ Este é o repositório do meu site portfólio pessoal, desenvolvido com HTML, CS
 
 # Estrutura do Projeto
 ```
-bash
 
 📁 projeto-portfolio/
 │
