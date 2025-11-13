@@ -78,8 +78,9 @@ async function getApiGithub() {
     }
 }
 
-// Função de envio e validação do formulário
-formulario.addEventListener('submit', function(event){
+    // Função de envio e validação do formulário
+    formulario.addEventListener('submit', function(event){
+      
    //Validação do campo nome
     event.preventDefault(); //impede o envio automatico do formulário
     const campoNome = document.querySelector('#nome'); //validação do campo nome
